@@ -1,0 +1,68 @@
+[
+    {
+      "key": "domain",
+      "type":"select",
+      "templateOptions": {
+        "label": "Sélectionnez un domaine",
+        "placeholder": "",
+        "description": "",
+        "required": true,
+        "options": [
+          { "value": "ba_pg", "label":"BA PG" },
+          { "value": "flux_pg", "label":"FLUX PG" }
+        ]
+      }
+    },
+    {
+      "key": "subdomain",
+      "type":"select",
+      "templateOptions": {
+        "label": "Sélectionnez un sous-domaine",
+        "placeholder": "",
+        "description": "",
+        "required": true,
+        "options": [
+          { "value": "01_panier_ame_pa_pg_c8", "label":"01 PANIER AME BA PG C8" },
+          { "value": "01_panier_ame_pa_pg_cstar", "label":"01 PANIER AME BA PG CSTAR" },
+          { "value": "01_panier_ame_pa_pg_cnews", "label":"01 PANIER AME BA PG CNEWS" }
+        ]
+      }
+    },
+    {
+      "key": "workplace",
+      "type":"select",
+      "templateOptions": {
+        "label": "Sélectionnez un workplace",
+        "required": true,
+        "options": [
+          { "value": "panier_ame_ba_pg_c8", "label":"PANIER AME BA PG C8" },
+          { "value": "panier_ame_ba_pg_cstar", "label":"PANIER AME BA PG CSTAR" },
+          { "value": "panier_ame_ba_pg_cnews", "label":"PANIER AME BA PG CNEWS" }
+        ]
+      }
+    },
+    {
+      "key": "filename",
+      "type":"input",
+      "templateOptions": {
+        "label": "Nom du fichier",
+        "required": true
+      }
+    },
+    {
+      "key": "startofmedia",
+      "type":"input",
+      "templateOptions": {
+        "label": "TC Début",
+        "required": true
+      }
+    },
+    {
+      "key": "endofmedia",
+      "type":"input",
+      "templateOptions": {
+        "label": "TC Fin",
+        "required": true
+      }
+    }
+  ]
