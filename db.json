@@ -3,6 +3,7 @@
     {
       "key": "domain",
       "type":"select",
+      "index": 0,
       "templateOptions": {
         "label": "Sélectionnez un domaine",
         "placeholder": "",
@@ -17,6 +18,7 @@
     {
       "key": "subdomain",
       "type":"select",
+      "index": 1,
       "templateOptions": {
         "label": "Sélectionnez un sous-domaine",
         "placeholder": "",
@@ -32,6 +34,7 @@
     {
       "key": "workplace",
       "type":"select",
+      "index": 2,
       "templateOptions": {
         "label": "Sélectionnez un workplace",
         "required": true,
@@ -45,6 +48,7 @@
     {
       "key": "filename",
       "type":"input",
+      "index": 3,
       "templateOptions": {
         "label": "Nom du fichier",
         "required": true
@@ -53,6 +57,7 @@
     {
       "key": "startofmedia",
       "type":"input",
+      "index": 4,
       "templateOptions": {
         "label": "TC Début",
         "required": true
@@ -61,6 +66,7 @@
     {
       "key": "endofmedia",
       "type":"input",
+      "index": 4,
       "templateOptions": {
         "label": "TC Fin",
         "required": true
