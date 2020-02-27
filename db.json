@@ -58,6 +58,7 @@
       "key": "startofmedia",
       "type":"input",
       "index": 4,
+      "position": "left",
       "templateOptions": {
         "label": "TC Début",
         "required": true
@@ -67,6 +68,7 @@
       "key": "endofmedia",
       "type":"input",
       "index": 4,
+      "position": "right",
       "templateOptions": {
         "label": "TC Fin",
         "required": true
